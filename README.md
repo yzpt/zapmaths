@@ -1,26 +1,26 @@
 # --- Work in progress editing Readme ---
 
-# Zapmaths : Application web d'entraînement des automatismes de calcul
+# Zapmaths: Web application for arithmetic akills practice
 
-## Présentation
+## Presentation
 
-Zapmaths est une application web d'entraînement des automatismes de calcul que j'ai développé durant ma carrière d'enseignant. Elle est utilisée en classe et à la maison. Les valeurs numériques des questions sont aléatoires et sont corrigées automatiquement. Les élèves peuvent s'entraîner à leur rythme. Les enseignants peuvent suivre la progression de leurs élèves et les aider à cibler leurs difficultés.
+Zapmaths is a web application for practicing arithmetic skills that I developed during my teaching career. It is used both in the classroom and at home. The numerical values of the questions are random and are automatically corrected. Students can practice at their own pace, and teachers can track their students' progress and help them target their difficulties.
 
-Je l'ai commencé durant le confinement, me reposant sur de vieux souvenirs lorsque je créais des site web en php/mysql dans les années 2000. Le code n'est pas du tout propre, la gestion de la base de donnée est scandaleuse. Le tout reste fonctionnel.
+I started it during the lockdown, relying on old memories when I used to create websites in PHP/MySQL back in the 2000s. The code is not clean at all, and the database management is quite messy. Nevertheless, it remains functional.
 
-Excel (rédaction des questions) --> python (xls_to_csv_questions_generator.py)--> mySQL (phpMyAdmin) <--> php --> html/css/js (Stack LAMP)
+Excel (question writing) --> Python (xls_to_csv_questions_generator.py) --> MySQL (phpMyAdmin) <--> PHP/HTML/CSS (LAMP Stack)
 
-Une version est actuellement disponible à l'adresse suivante :
+A version is currently available at the following address:
 
-[https://zapart.ovh](https://zapart.ovh)
+['https://zapart.ovh'](https://zapart.ovh)
 
-Vous pouvez vous identifier avec :
+You can log in with:
 
 - login     : demo01/demo02/.../demo99
 - password  : demo01/demo02/.../demo99
 
 
-<div style="display: flex; flex-wrap:wrap; justify-content: space-around; align-items: center; width: 100%;">
+<div style="display: flex; flex-wrap:wrap;">
 
 ![Screenshot](./img/screenshots/a.jpg)
 ![Screenshot](./img/screenshots/b.jpg)
@@ -32,3 +32,25 @@ Vous pouvez vous identifier avec :
 ![Screenshot](./img/screenshots/h.jpg)
 
 </div>
+
+## === to write : ===
+
+## Editing questions with driven semi-random values on EXCEL
+
+* usage of Mathjax.js to display mathematical formulas
+
+## Converting EXCEL to CSV with python
+
+* usage of matplotlib.pyplot to generate graphs according to the values of the questions
+
+* usage of base64 to encode images, etc
+
+## Web app
+
+* minimal html/css/php/msql with phpMyAdmin
+
+* SQL supervision
+
+## Access to a collected and anonymized real data sample
+
+* just a idea
