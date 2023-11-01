@@ -53,6 +53,6 @@ You can log in with:
 
 * SQL supervision
 
-## Access to a collected, anonymized and refactored real database sample
+## Access to an anonymized and refactored real database sample
 
 * just an idea, i'm quite focused on learning Airflow, Spark & Kafka right now.
