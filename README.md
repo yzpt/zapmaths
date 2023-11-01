@@ -22,13 +22,13 @@ Vous pouvez vous identifier avec :
 
 <div style="display: flex; flex-wrap:wrap;">
 
-![Screenshot](./img/screens/a.jpg)
-![Screenshot](./img/screens/b.jpg)
-![Screenshot](./img/screens/c.jpg)
-![Screenshot](./img/screens/d.jpg)
-![Screenshot](./img/screens/e.jpg)
-![Screenshot](./img/screens/f.jpg)
-![Screenshot](./img/screens/g.jpg)
-![Screenshot](./img/screens/h.jpg)
+![Screenshot](./img/screenshots/a.jpg)
+![Screenshot](./img/screenshots/b.jpg)
+![Screenshot](./img/screenshots/c.jpg)
+![Screenshot](./img/screenshots/d.jpg)
+![Screenshot](./img/screenshots/e.jpg)
+![Screenshot](./img/screenshots/f.jpg)
+![Screenshot](./img/screenshots/g.jpg)
+![Screenshot](./img/screenshots/h.jpg)
 
 </div>
