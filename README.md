@@ -20,13 +20,15 @@ Vous pouvez vous identifier avec :
 - password  : demo01/demo02/.../demo99
 
 
-<div style="display: flex; flex-wrap: wrap;">
-    <img src="./img/screens/a.jpg" alt="Screenshot" style="max-width: 150px; margin: 5px;">
-    <img src="./img/screens/b.jpg" alt="Screenshot" style="max-width: 150px; margin: 5px;">
-    <img src="./img/screens/c.jpg" alt="Screenshot" style="max-width: 150px; margin: 5px;">
-    <img src="./img/screens/d.jpg" alt="Screenshot" style="max-width: 150px; margin: 5px;">
-    <img src="./img/screens/e.jpg" alt="Screenshot" style="max-width: 150px; margin: 5px;">
-    <img src="./img/screens/f.jpg" alt="Screenshot" style="max-width: 150px; margin: 5px;">
-    <img src="./img/screens/g.jpg" alt="Screenshot" style="max-width: 150px; margin: 5px;">
-    <img src="./img/screens/h.jpg" alt="Screenshot" style="max-width: 150px; margin: 5px;">
+<div style="display: flex; flex-wrap:wrap;">
+
+![Screenshot](./img/screens/a.jpg)
+![Screenshot](./img/screens/b.jpg)
+![Screenshot](./img/screens/c.jpg)
+![Screenshot](./img/screens/d.jpg)
+![Screenshot](./img/screens/e.jpg)
+![Screenshot](./img/screens/f.jpg)
+![Screenshot](./img/screens/g.jpg)
+![Screenshot](./img/screens/h.jpg)
+
 </div>
