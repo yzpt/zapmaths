@@ -1,4 +1,4 @@
-### --- Work in progress ---
+# --- Work in progress editing Readme ---
 
 # Zapmaths : Application web d'entraînement des automatismes de calcul
 
@@ -8,7 +8,7 @@ Zapmaths est une application web d'entraînement des automatismes de calcul que 
 
 Je l'ai commencé durant le confinement, me reposant sur de vieux souvenirs lorsque je créais des site web en php/mysql dans les années 2000. Le code n'est pas du tout propre, la gestion de la base de donnée est scandaleuse. Le tout reste fonctionnel.
 
-Excel (rédaction des questions) --> python --> mySQL (phpMyAdmin) <--> php --> html/css/js (Stack LAMP)
+Excel (rédaction des questions) --> python (xls_to_csv_questions_generator.py)--> mySQL (phpMyAdmin) <--> php --> html/css/js (Stack LAMP)
 
 Une version est actuellement disponible à l'adresse suivante :
 
@@ -20,4 +20,3 @@ Vous pouvez vous identifier avec :
 - password  : demo01/demo02/.../demo99
 
 ![screens](./img/zapmaths_screens.png)
-
