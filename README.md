@@ -35,7 +35,9 @@ You can log in with:
 
 ## === to write : ===
 
-## Editing questions with driven semi-random values on EXCEL
+## Editing questions on EXCEL
+
+* generating semi-random values on EXCEL
 
 * usage of Mathjax.js to display mathematical formulas
 
@@ -43,7 +45,7 @@ You can log in with:
 
 * usage of matplotlib.pyplot to generate graphs according to the values of the questions
 
-* usage of base64 to encode images, etc
+* usage of base64 to encode images, specials questions, etc
 
 ## Web app
 
@@ -53,4 +55,4 @@ You can log in with:
 
 ## Access to a collected and anonymized real data sample
 
-* just a idea
+* just an idea
