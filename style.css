@@ -1,0 +1,280 @@
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(90deg, #7474BF 0%, #348AC7 100%, #ffe1aa 100%);
+    background-attachment: fixed;
+}
+
+body {
+    margin: 0;
+    padding: 45px 15px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 90%;
+    max-width: 500px;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #a2a5b6;
+    opacity:.9;
+    position:absolute;
+    top: 0;
+    width: 100%;
+    /* max-width: 500px; */
+    height: 30px;
+    color:white;
+    border-bottom: 1px solid rgba(213, 213, 213, 0.75);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    box-shadow: 0 10px 15px rgba(213, 213, 213, 0.4);
+}
+
+
+.nav--icones {
+    margin: 0 15px;
+}
+
+
+.nav--p {
+    margin: 0;
+    text-align: right;
+}
+
+.p-white {
+    color: white;
+    opacity: 0.7;
+    font-size:smaller;
+}
+
+
+h1 {
+    margin: 10px 10px;
+    font-size: large;
+}
+
+h3 {
+    text-align: center;
+    color: #dcdddf;
+}
+
+
+#identifiant, #mdp {
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border: none;
+    border-bottom: 1px solid rgb(205, 205, 205);
+    
+}
+
+
+.card {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    overflow: hidden;
+    margin: 0.4em 0;
+}
+
+.card-question {
+    margin-bottom: 10px;
+    height: fit-content;
+}
+
+.boite-question {
+    margin: 15px;
+}
+
+.boite-frame {
+    margin: 15px;
+    height: 600px;
+}
+
+.card-auth {
+    background-color: rgba(255,255,255,0.2);
+    width: 90%;
+    min-height: 300px;
+}
+
+#auth-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+}
+
+input[type=text], input[type=password] {
+    background-color: rgba(0,0,0,0);
+    border: red 1px solid;
+    width: 70%;
+    font-size:x-large;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+input:focus {
+    outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
+}
+
+#button-connexion {
+    width: 70%;
+    height: 40px;
+    background-color: rgba(255,255,255,0.4);
+    border: 1px solid rgba(255,255,255,0.4);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 5px;
+    font-size: x-large;
+    color: rgb(91, 87, 155);
+        cursor: pointer;
+}
+
+.button-propchoix {
+    width: 70v !important;
+    height: 40px;
+    background-color: rgba(255,255,255,0.4);
+    border: 1px solid rgba(255,255,255,0.4);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 5px;
+    font-size: x-large;
+    color: rgb(91, 87, 155);
+        cursor: pointer;
+}
+
+.card--p {
+    font-size:smaller;
+    color: #6a6a6a;
+    margin: 5px 10px;
+}
+
+.card--p--niveau {
+    min-width: 60px;
+    text-align: right;
+}
+
+.card--line {
+    border-top: 1px solid rgb(191, 190, 190);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.compteur {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.compteur--case {
+    text-align: center;
+    vertical-align: middle;
+    font-size: small;
+    line-height: 1.3rem;
+    /* border: 1px solid black; */
+    border-radius: 2rem;
+    margin: 0 5px;
+    width: 1.3rem;
+    height: 1.3rem;
+    color: white;
+}
+
+.color--vert {
+    color: rgb(79, 161, 79)!important;
+}
+.color--bleu {
+    color: rgb(82, 79, 161)!important;
+}
+.color--rouge {
+    color: rgb(161, 79, 79)!important;
+}
+
+.bgc--vert {
+    background-color: rgba(103, 218, 103, 0.2);
+}
+.bgc--bleu {
+    background-color: rgba(120, 103, 218, 0.2);
+}
+.bgc--rouge {
+    background-color: rgba(218, 103, 103, 0.2);
+}
+
+.case_verte {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    padding: 5px;
+    padding-left:auto;
+    border: 1px solid rgba(255,255,255,.5);    
+    background-color: rgba(0,255,0,.35); 
+    margin-left:1px;
+    margin-right:1px;
+  }
+  
+.case_grise {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    padding: 5px;
+    padding-left:auto;
+    border: 1px solid rgba(255,255,255,.5);    
+    background-color: rgba(0,0,0,0); 
+    margin-left:1px;
+    margin-right:1px;
+  }
+
+#input-reponse {
+    border: 1px solid rgba(255,255,255,.4);
+    border-radius: 7px;
+    background-color: rgba(0,0,0,.5);;
+    color: white;
+    height : 3em;
+    font-size:24px;
+    width:40%;
+}
+
+.bouton-valider{
+    background-color:rgba(255,255,255,0.1);
+    color:white;
+    border:1px solid rgba(255,255,255,0.5);
+    border-radius: 7px;
+    width:40%;
+    margin-top:5px;
+    height:3em;
+    font-size:24px;
+   }
+
+#bouton-suivant{
+    background-color:rgba(255,255,255,0.1);
+    color:white;
+    border:1px solid rgba(255,255,255,0.5);
+    margin-top:5px;
+    height:3em;
+    font-size:24px;
+    width: 100%;
+    border-radius: 10px;
+   }
