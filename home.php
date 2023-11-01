@@ -11,7 +11,7 @@ error_reporting(E_ALL);
 ini_set("display_errors", 1);
 try {
     // On se connecte à MySQL
-    $bdd = new PDO('mysql:host=localhost;dbname=general;charset=utf8', 'root', 'Zapmaths_86!');
+    $bdd = new PDO('mysql:host=localhost;dbname=general;charset=utf8', 'username', 'password');
     $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (Exception $e) {
     // En cas d'erreur, on affiche un message et on arrête tout

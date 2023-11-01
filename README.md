@@ -19,4 +19,14 @@ Vous pouvez vous identifier avec :
 - login     : demo01/demo02/.../demo99
 - password  : demo01/demo02/.../demo99
 
-![screens](./img/zapmaths_screens.png)
+
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="./img/screens/a.jpg" alt="Screenshot" style="max-width: 150px; margin: 5px;">
+    <img src="./img/screens/b.jpg" alt="Screenshot" style="max-width: 150px; margin: 5px;">
+    <img src="./img/screens/c.jpg" alt="Screenshot" style="max-width: 150px; margin: 5px;">
+    <img src="./img/screens/d.jpg" alt="Screenshot" style="max-width: 150px; margin: 5px;">
+    <img src="./img/screens/e.jpg" alt="Screenshot" style="max-width: 150px; margin: 5px;">
+    <img src="./img/screens/f.jpg" alt="Screenshot" style="max-width: 150px; margin: 5px;">
+    <img src="./img/screens/g.jpg" alt="Screenshot" style="max-width: 150px; margin: 5px;">
+    <img src="./img/screens/h.jpg" alt="Screenshot" style="max-width: 150px; margin: 5px;">
+</div>
