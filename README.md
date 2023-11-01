@@ -20,7 +20,7 @@ Vous pouvez vous identifier avec :
 - password  : demo01/demo02/.../demo99
 
 
-<div style="display: flex; flex-wrap:wrap;">
+<div style="display: flex; flex-wrap:wrap; justify-content: space-around; align-items: center; width: 100%;">
 
 ![Screenshot](./img/screenshots/a.jpg)
 ![Screenshot](./img/screenshots/b.jpg)
