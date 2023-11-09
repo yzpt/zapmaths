@@ -36,6 +36,8 @@ You can log in with:
 
 * generating semi-random values on EXCEL
 * usage of Mathjax.js to display mathematical formulas
+  
+![xls screen](img/xls_screen.png)
 
 ### Converting EXCEL to CSV with python
 
