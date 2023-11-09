@@ -1,5 +1,3 @@
-# --- Work in progress editing Readme ---
-
 # Zapmaths: Web application for arithmetic akills practice
 
 ## Presentation
@@ -33,26 +31,16 @@ You can log in with:
 
 </div>
 
-## === to write : ===
-
-## Editing questions on EXCEL
+### Editing questions on EXCEL
 
 * generating semi-random values on EXCEL
-
 * usage of Mathjax.js to display mathematical formulas
 
-## Converting EXCEL to CSV with python
+### Converting EXCEL to CSV with python
 
-* usage of matplotlib.pyplot to generate graphs according to the values of the questions
+* matplotlib.pyplot to generate graphs, and images according to the values of the questions
 
-* usage of base64 to encode images, specials questions, etc
+### Web app
 
-## Web app
-
-* minimal html/css/php/msql with phpMyAdmin
-
+* Minimal html/css/php/msql with phpMyAdmin
 * SQL supervision
-
-## Access to an anonymized and refactored real database sample
-
-* just an idea, i'm quite focused on learning Airflow, Spark & Kafka right now.
