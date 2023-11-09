@@ -1,14 +1,14 @@
-# Zapmaths: Web application for arithmetic akills practice
+# Zapmaths: Web application for practicing calculation skills
 
 ## Presentation
 
-Zapmaths is a web application for practicing arithmetic skills that I developed during my teaching career. It is used both in the classroom and at home. The numerical values of the questions are random and are automatically corrected. Students can practice at their own pace, and teachers can track their students' progress and help them target their difficulties.
+Zapmaths is a web application I created during my teaching career, designed for both classroom and home use. The application generates questions, corrections, graphics, diagrams, and schemas using random values. This allows students to practice at their own pace, while I can monitor their progress and activities.
 
-I started it during the lockdown, relying on old memories and sames tutorials when I used to create websites in PHP/MySQL back in the 2000s. <u>The code is not clean at all, and the database management is quite messy. Nevertheless, it remains functional.</u> I wanted to make it available to my students as soon as possible, so I didn't take the time to learn how to do it properly.
+I started it during the lockdown, relying on old memories and sames tutorials when I used to create websites in PHP/MySQL back in the 2000s. <u>The code is not clean at all, and the database management is quite messy. Nevertheless, it remains functional.</u> I wanted to make it available as soon as possible, so I didn't take the time to learn how to do it properly.
 
 Excel (question writing) --> Python (xls_to_csv_questions_generator.py) --> MySQL (phpMyAdmin) <--> PHP/HTML/CSS (LAMP Stack)
 
-A version is currently available at the following address:
+A release is currently available at the following address:
 
 ['https://zapart.ovh'](https://zapart.ovh)
 
@@ -38,9 +38,8 @@ You can log in with:
 
 ### Converting EXCEL to CSV with python
 
-* matplotlib.pyplot to generate graphs, and images according to the values of the questions
+* PIL & matplotlib.pyplot to generate graphs, diagrams and images according to the values of the questions
 
 ### Web app
 
 * Minimal html/css/php/msql with phpMyAdmin
-* SQL supervision
